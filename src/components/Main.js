@@ -30,7 +30,8 @@ class Main extends React.Component {
 
         <article id="contact" className={`${this.props.article === 'contact' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Contacto</h2>
-          <form method="post" action="#">
+          <form method="post" netlify-honeypot="bot-field" data-netlify="true">
+            <input type="hidden" name="bot-field" />
             <div className="field half first">
               <label htmlFor="name">Nombre</label>
               <input type="text" name="name" id="name" />
@@ -50,9 +51,9 @@ class Main extends React.Component {
           </form>
           <ul className="icons">
             <li><a href="#" className="icon fa-twitter"><span className="label">Twitter</span></a></li>
-            <li><a href="#" className="icon fa-facebook"><span className="label">Facebook</span></a></li>
-            <li><a href="#" className="icon fa-instagram"><span className="label">Instagram</span></a></li>
-            <li><a href="#" className="icon fa-github"><span className="label">GitHub</span></a></li>
+            <li><a href="https://www.facebook.com/instituto.danza/" className="icon fa-facebook"><span className="label">Facebook</span></a></li>
+            <li><a href="https://www.instagram.com/instituto_danza/" className="icon fa-instagram"><span className="label">Instagram</span></a></li>
+            <li><a href="https://www.linkedin.com/company/instituto-universitario-alicia-alonso" className="icon fa-linkedin"><span className="label">LinkedIn</span></a></li>
           </ul>
           {close}
         </article>
