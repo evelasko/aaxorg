@@ -19,6 +19,15 @@ module.exports = {
       },
     },
     'gatsby-plugin-sass',
-    'gatsby-plugin-offline'
+    'gatsby-plugin-offline',
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `Cormorant Garamond\:100,400`, // you can also specify font weights and styles
+        ],
+        display: 'swap',
+      },
+    }
   ],
 }

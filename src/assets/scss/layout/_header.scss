@@ -27,16 +27,16 @@
 			position: relative;
 			margin-top: 3.5rem;
 
-			&:before {
-				content: '';
-				display: block;
-				position: absolute;
-				top: calc(-3.5rem - 1px);
-				left: calc(50% - #{_size(border-width) * 1});
-				width: _size(border-width);
-				height: calc(3.5rem + 1px);
-				background: _palette(border);
-			}
+			// &:before {
+			// 	content: '';
+			// 	display: block;
+			// 	position: absolute;
+			// 	top: calc(-3.5rem - 1px);
+			// 	left: calc(50% - #{_size(border-width) * 1});
+			// 	width: _size(border-width);
+			// 	height: calc(3.5rem + 1px);
+			// 	background: _palette(border);
+			// }
 		}
 
 		> :first-child {
@@ -48,11 +48,11 @@
 		}
 
 		.logo {
-			width: 5.5rem;
-			height: 5.5rem;
+			width: 13.5rem;
+			height: 13.5rem;
 			line-height: 5.5rem;
-			border: solid _size(border-width) _palette(border);
-			border-radius: 100%;
+			// border: solid _size(border-width) _palette(border);
+			// border-radius: 100%;
 
 			.icon {
 				&:before {
@@ -197,8 +197,8 @@
 			}
 
 			.logo {
-				width: 4.75rem;
-				height: 4.75rem;
+				width: 8.75rem;
+				height: 8.75rem;
 				line-height: 4.75rem;
 
 				.icon {

@@ -1,10 +1,11 @@
 {
-  "name": "gatsby-starter-dimension-v2",
-  "description": "Gatsby Starter - Dimension V2",
+  "name": "alicia-alonso-foundation",
+  "description": "Fundación Alicia Alonso",
   "version": "1.0.0",
-  "author": "Hunter Chang",
+  "author": "Enrique Velasco",
   "dependencies": {
     "gatsby": "^2.2.9",
+    "gatsby-plugin-google-fonts": "^1.0.1",
     "gatsby-plugin-manifest": "^2.0.24",
     "gatsby-plugin-offline": "^2.0.25",
     "gatsby-plugin-react-helmet": "^3.0.10",
