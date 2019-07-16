@@ -1,9 +1,9 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import Helmet from 'react-helmet'
-import { StaticQuery, graphql } from 'gatsby'
+import { graphql, StaticQuery } from 'gatsby';
+import PropTypes from 'prop-types';
+import React from 'react';
+import Helmet from 'react-helmet';
+import '../assets/scss/main.scss';
 
-import '../assets/scss/main.scss'
 
 const Layout = ({ children, location }) => {
 
@@ -41,8 +41,8 @@ const Layout = ({ children, location }) => {
           <Helmet
             title={data.site.siteMetadata.title}
             meta={[
-              { name: 'description', content: 'Sample' },
-              { name: 'keywords', content: 'sample, something' },
+              { name: 'description', content: 'Página Web Oficial de la Fundación Alicia Alonso' },
+              { name: 'keywords', content: 'danza, teatro, circo, educación universitaria, educación superior, universidad, artes del espectáculo, artes escénicas' },
             ]}
           >
             <html lang="en" />
