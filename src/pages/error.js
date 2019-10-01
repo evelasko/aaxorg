@@ -97,10 +97,10 @@ class IndexPage extends React.Component {
             <HeaderSimple 
               onOpenArticle={this.handleOpenArticle} 
               timeout={this.state.timeout} 
-              title="Cuenta Confirmada"
-              text="Su cuenta @alicialonso.org ya esta confirmada y activa. Le invitamos a desubrir la actividad y los servicios de nuestros centros en los siguientes vínculos, así como gestionar sus propios recursos y actividades dentro de la organización."
-              links={true}
-              />
+              title="Error"
+              text="Ha ocurrido un error al intentar procesar su solicitud. Por favor inténtelo más tarde, si el problema persiste no dude en ponerse en contacto con nosotros a través de fundacion@alicialonso.org para intentar solucionar la incidencia lo antes posible."
+              links={false}
+            />
             <Footer timeout={this.state.timeout} />
           </div>
           <div id="bg"></div>
