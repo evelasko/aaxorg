@@ -24,7 +24,7 @@ module.exports = {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
-          `Cormorant Garamond\:100,400`, // you can also specify font weights and styles
+          `Cormorant Garamond\:100,400,800`, // you can also specify font weights and styles
         ],
         display: 'swap',
       },
